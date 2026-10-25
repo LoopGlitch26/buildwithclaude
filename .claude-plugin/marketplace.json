@@ -4306,6 +4306,34 @@
         "repo": "MrMirhan/claude-buddy-chat",
         "sha": "b9eb968dd8c274040ea80c4a3c4ac2bc8fa6790d"
       }
+    },
+    {
+      "name": "tracekit",
+      "description": "Hooks that send each Claude Code tool call to a local Tracekit signer before it runs: allowed, denied with the rule that matched, or held until you approve it from another terminal. The signer signs every call, decision and result into a hash-chained record that `tracekit verify` checks offline. Needs the tracekit-ai Python package (`pip install tracekit-ai && tracekit init --dev --v2 --no-hooks`). In that dev mode the signer runs as your own user; on Linux, system mode runs it as a separate user.",
+      "version": "1.4.2",
+      "author": {
+        "name": "Cygnux Labs",
+        "url": "https://github.com/Cygnux-Labs"
+      },
+      "homepage": "https://github.com/Cygnux-Labs/Tracekit/tree/v1.4.2/plugin",
+      "repository": "https://github.com/Cygnux-Labs/Tracekit",
+      "license": "MIT",
+      "keywords": [
+        "security",
+        "hooks",
+        "pretooluse",
+        "approvals",
+        "audit-log",
+        "tamper-evident"
+      ],
+      "category": "security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Cygnux-Labs/Tracekit.git",
+        "path": "plugin",
+        "ref": "v1.4.2",
+        "sha": "d41c68e335a0986100b8747729659798bcf9d949"
+      }
     }
   ]
 }
