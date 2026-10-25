@@ -4308,14 +4308,69 @@
       }
     },
     {
+      "name": "pro-launch",
+      "description": "Take an app or product from idea to launch, taste-first: positioning, naming with domain and trademark checks, reference hunting, style frames beside named references, feature map, UI build loop, launch video, GTM and shipping, with phase gates that force a real artifact before the next step.",
+      "version": "1.0.0",
+      "author": {
+        "name": "jack-reson8",
+        "url": "https://github.com/jack-reson8"
+      },
+      "homepage": "https://github.com/jack-reson8/pro-launch",
+      "repository": "https://github.com/jack-reson8/pro-launch",
+      "license": "MIT",
+      "keywords": [
+        "product",
+        "app-development",
+        "naming",
+        "branding",
+        "ui-design",
+        "launch",
+        "gtm"
+      ],
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jack-reson8/pro-launch.git",
+        "path": "plugins/pro-launch",
+        "sha": "76b9a6500bc422a07242fe74149c3a7e09e089fd"
+      }
+    },
+    {
+      "name": "skill-skill",
+      "description": "Write, upgrade or audit Claude skills so they change what gets generated: distil rules from real corrections, turn them into required artifacts, gates and scripts, and lint any skill folder with a 0-100 health score (name, trigger clause, orphan and dangling files, oversized body).",
+      "version": "1.2.0",
+      "author": {
+        "name": "jack-reson8",
+        "url": "https://github.com/jack-reson8"
+      },
+      "homepage": "https://github.com/jack-reson8/skill-skill",
+      "repository": "https://github.com/jack-reson8/skill-skill",
+      "license": "MIT",
+      "keywords": [
+        "claude-skills",
+        "agent-skills",
+        "skill-creator",
+        "linter",
+        "audit",
+        "prompt-engineering"
+      ],
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jack-reson8/skill-skill.git",
+        "path": "plugins/skill-skill",
+        "sha": "d1e1d984a2d05187a1800e81e374d571ec83b4d8"
+      }
+    },
+    {
       "name": "tracekit",
-      "description": "Hooks that send each Claude Code tool call to a local Tracekit signer before it runs: allowed, denied with the rule that matched, or held until you approve it from another terminal. The signer signs every call, decision and result into a hash-chained record that `tracekit verify` checks offline. Needs the tracekit-ai Python package (`pip install tracekit-ai && tracekit init --dev --v2 --no-hooks`). In that dev mode the signer runs as your own user; on Linux, system mode runs it as a separate user.",
+      "description": "Hooks that send each Claude Code tool call to a local Tracekit signer before it runs: allowed, denied with the rule that matched, or held until you approve it from another terminal. The signer signs every call, decision and result into a hash-chained record that `tracekit verify` checks offline. Needs the tracekit-ai Python package (`pip install tracekit-ai==1.4.2 && tracekit init --dev --v2 --no-hooks`). In that dev mode the signer runs as your own user; on Linux, system mode runs it as a separate user.",
       "version": "1.4.2",
       "author": {
         "name": "Cygnux Labs",
         "url": "https://github.com/Cygnux-Labs"
       },
-      "homepage": "https://github.com/Cygnux-Labs/Tracekit/tree/v1.4.2/plugin",
+      "homepage": "https://github.com/Cygnux-Labs/Tracekit/tree/9d1d74b7aee051d839b708a84741b1ea6b379852/plugin",
       "repository": "https://github.com/Cygnux-Labs/Tracekit",
       "license": "MIT",
       "keywords": [
@@ -4331,8 +4386,8 @@
         "source": "git-subdir",
         "url": "https://github.com/Cygnux-Labs/Tracekit.git",
         "path": "plugin",
-        "ref": "v1.4.2",
-        "sha": "d41c68e335a0986100b8747729659798bcf9d949"
+        "ref": "main",
+        "sha": "9d1d74b7aee051d839b708a84741b1ea6b379852"
       }
     }
   ]
